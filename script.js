@@ -11,18 +11,15 @@ const prevBtn = document.getElementById("prev");
 const playBtn = document.getElementById("play");
 const nextBtn = document.getElementById("next");
 const loopBtn = document.getElementById("loop");
+
+
 const playerImg = document.querySelector('.player_img img');
 const songs = [
     {
-      path: "/Music/Kings & Queens.mp3",
+      path: "Music/Kings & Queens.mp3",
       displayName: "Kings & Queens",
-      cover: "https://naijay.com/wp-content/uploads/2022/09/Ava-Max-Kings-Queens-Mp3-Download-Lyrics.jpg",
+      cover: "https://www.gaytimes.co.uk/wp-content/uploads/2020/03/ava-max-kings-queens-1.png",
       artist: "Ava Max",
-    },{
-      path: "https://naijay.com/wp-content/uploads/music/2024/02/Alan_Walker_-_Unity_(Jesusful.com).mp3",
-      displayName: "Unity",
-      cover: "https://naijay.com/wp-content/uploads/2024/02/Alan-Walker-%E2%80%93-Unity.jpeg",
-      artist: "Alan Walker",
     },{
       path: "/Music/The Nights.mp3",
       displayName: "The Nights",
