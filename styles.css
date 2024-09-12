@@ -210,6 +210,21 @@ h3 {
 	background: #25272eda;
 }
 
+.A {
+	display: flex;
+}
+
+.myTitle {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	font-weight: 700;
+}
+
+.tite {
+	align-self: center;
+}
+
 @keyframes spin {
 	0% {
 		transform: rotate(0deg);
