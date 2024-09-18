@@ -11,7 +11,32 @@ const prevBtn = document.getElementById("prev");
 const playBtn = document.getElementById("play");
 const nextBtn = document.getElementById("next");
 const loopBtn = document.getElementById("loop");
+const tpass = document.getElementById("password");
+const temail = document.getElementById("email");
+const login = document.getElementById("logMe");
+const register = document.getElementById("regMe");
+const logForm = document.querySelector('.login');
+const regForm = document.querySelector('.register');
+const holder = document.querySelector('.log');
+const tHold = document.querySelector('.testing');
+const btns = document.querySelector('.Btns');
 
+btns.addEventListener('click', () => {
+  if(temail.value != ''){
+    
+  }
+  else if(tpass.value != '' && temail.value != ''){
+    logForm.style.display = 'none';
+    holder.style.display = 'none';
+    loginSucces();
+  }
+})
+
+function loginSucces(){
+  if(tpass.value != ''){
+      swal("Success", "You have successfully logged in.", "success");
+  }
+}
 
 const playerImg = document.querySelector('.player_img img');
 const songs = [
