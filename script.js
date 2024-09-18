@@ -22,13 +22,12 @@ const tHold = document.querySelector('.testing');
 const btns = document.querySelector('.Btns');
 
 btns.addEventListener('click', () => {
-  if(temail.value != ''){
-    
-  }
-  else if(tpass.value != '' && temail.value != ''){
+  if(tpass.value != '' && temail.value != ''){
     logForm.style.display = 'none';
     holder.style.display = 'none';
     loginSucces();
+  }else if(temail.value != ''){
+
   }
 })
 
